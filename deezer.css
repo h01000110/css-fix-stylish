@@ -1,3 +1,24 @@
+/* Remove botão Assinar */
 .subscribe {
     display: none !important;
+}
+
+/* Remove mensagem anti-adblock */
+.abp-banner-container {
+    display: none !important;
+}
+
+/* Remove anúncios no topo da página */
+#ads_banner_top {
+    display: none !important;
+}
+
+/* Remove anúncios no rodapé da página */
+.ads-bottom {
+    display: none !important;
+}
+
+/* Aumenta o tamanho do frame de conteúdo */
+.page-scroll {
+    height: 100% !important;
 }

@@ -1,3 +1,12 @@
+@-moz-document domain("deezer.com") {
+
+/*
+    deezer 0.2
+    by: hi
+    http://h01000110.github.io
+    @h01000110
+*/
+
 /* Remove botão Assinar */
 .subscribe {
     display: none !important;
@@ -18,7 +27,14 @@
     display: none !important;
 }
 
-/* Aumenta o tamanho do frame de conteúdo */
+/* Aumenta tamanho do frame de conteúdo */
 .page-scroll {
     height: 100% !important;
+}
+
+/* Remove barra de notificações no canto inferior direito */
+#livemenu {
+    display: none !important;
+}
+
 }

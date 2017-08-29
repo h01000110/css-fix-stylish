@@ -1,40 +1,14 @@
-@-moz-document domain("deezer.com") {
-
 /*
-    deezer 0.2
-    by: hi
-    http://h01000110.github.io
-    @h01000110
+    deezer 0.3
+	Web: http://h01000110.github.io/20170829/deezer-fix
+	Twitter: h01000110
+	SoundCloud: h01000110
 */
 
-/* Remove botão Assinar */
-.subscribe {
-    display: none !important;
-}
+@-moz-document domain("deezer.com") {
 
-/* Remove mensagem anti-adblock */
-.abp-banner-container {
-    display: none !important;
-}
-
-/* Remove anúncios no topo da página */
-#ads_banner_top {
-    display: none !important;
-}
-
-/* Remove anúncios no rodapé da página */
-.ads-bottom {
-    display: none !important;
-}
-
-/* Aumenta tamanho do frame de conteúdo */
-.page-scroll {
-    height: 100% !important;
-}
-
-/* Remove barra de notificações no canto inferior direito */
-#livemenu {
-    display: none !important;
-}
+	.subscribe, .ads-top, .abp-banner-container, #ads_banner_top, .ads-bottom {
+		display: none !important;
+	}
 
 }
